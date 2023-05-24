@@ -13,7 +13,7 @@ The objective of this project is to o explore the potential of Selenium and FFmp
 1. **Use Selenium as a web scraping tool.** In this case, we extract information from the MLS soccer league page.
 2. **Use Selenium to capture screenshots of specific elements.**
 3. **Use Selenium as a web automation tool.** In this example, we automate the creation of sound files on a TTS (Text To Speach) web page.
-4. **Use Selenium to handle shadow-root elements**. In this case the browser's download page and after that manipulate downloaded files using Node.js.
+4. **Use Selenium to handle shadow-root elements**. In this case the browser's download page and after that manipulate downloaded files using Java Script in Node.js.
 5. **Use FFmpeg for video creation.**
 
 This project's objective is not to generate high-quality videos, for this, several changes should be done to the project, between them using a TTS API, such as the ones provided by Google, Amazon, or Cooki TTS.
