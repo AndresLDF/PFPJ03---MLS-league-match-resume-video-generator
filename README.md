@@ -5,7 +5,7 @@
 3. [Main functions](#Main-functions)
 4. [Creating a Video](#Creating-a-Video)
    - [Example Video](#Example-Video)
-5. [Points of improvement:](#Points-of-improvement:)
+5. [Points of improvement](#Points-of-improvement)
 
 
 ## Objective
