@@ -1,6 +1,6 @@
 # PFPJ03 - MLS league matches resume video generator
 ## Table of Contents
-1. [Objective](## Objective)
+1. [Objective](https://github.com/AndresLDF/PFPJ03---MLS-league-match-resume-video-generator#objective)
 2. [Structure of the project](## Structure of the project)
 3. [Main functions](## Main functions)
 4. [Creating a Video](## Creating a Video)
