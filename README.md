@@ -1,4 +1,12 @@
 # PFPJ03 - MLS league matches resume video generator
+## Table of Contents
+1. [Objective](## Objective)
+2. [Structure of the project](## Structure of the project)
+3. [Main functions](## Main functions)
+4. [Creating a Video](## Creating a Video)
+   - [Example Video](### Example Video)
+
+
 ## Objective
 
 The objective of this project is to generate a video related to a live web page using Selenium and Ffmpeg in Node.js. This is achieved by accomplishing the following sub-objectives:
@@ -49,6 +57,7 @@ The steps to create a video are:
 3. Check the video at the videos folder
 
 ### Example Video
+Please unmute the video
 
 https://github.com/AndresLDF/PFPJ03---MLS-league-match-resume-video-generator/assets/71279108/0f760527-2370-4ea7-b253-3671ce8ddb93
 
