@@ -50,10 +50,7 @@ The steps to create a video are:
 
 ### Example Video
 
-<video width="640" height="360" controls>
-  <source src="https://raw.githubusercontent.com/AndresLDF/PFPJ03---MLS-league-match-resume-video-generator/main/videos/Example Video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/AndresLDF/PFPJ03---MLS-league-match-resume-video-generator/assets/71279108/0f760527-2370-4ea7-b253-3671ce8ddb93
 
 
 ## Points of improvement:
