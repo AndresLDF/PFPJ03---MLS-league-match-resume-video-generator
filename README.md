@@ -49,12 +49,18 @@ The steps to create a video are:
 3. Check the video at the videos folder
 
 ### Example Video
+<video width="640" height="360" controls>
+  <source src="https://raw.githubusercontent.com/username/repository/main/video-url.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
-### Points of improvement:
+## Points of improvement:
 - The programm does not check if the files already exist to take proper actions. This cause that a new video with the same name of an old one is not generated 
 - An interfase for selecting the options to use should be added
 - The frames has to be removed at the end of the function
+- The function mlsVideoCreator for creating the video could include the video configuration as on of the paramenter
+- Include a header in the frames that indicate that the video is a resume and also has the dates included
 - Some testing should be done over the programm to check for possible bugs
 
 
