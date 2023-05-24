@@ -20,7 +20,7 @@ The objective of this project is to generate a video related to a live web page 
 This project's objective is not to generate high-quality videos but to explore the potential of Selenium and Ffmpeg for automatic video content generation.
 In a project with the main objective of automatic video generation, I recommend using a TTS API, such as the ones provided by Google, Amazon, or Cooki TTS.
 
-This project, in particular, uses a procedural programming approach. For an object-oriented approach in Node.js, please check other projects like PFPJ04.
+This project, in particular, uses a **procedural programming approach**. For an object-oriented approach in Node.js, please check other projects like PFPJ04.
 
 ## Structure of the project
 
