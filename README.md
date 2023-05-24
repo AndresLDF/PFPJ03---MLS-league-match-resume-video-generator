@@ -62,13 +62,12 @@ Please unmute the video
 
 https://github.com/AndresLDF/PFPJ03---MLS-league-match-resume-video-generator/assets/71279108/0f760527-2370-4ea7-b253-3671ce8ddb93
 
-
 ## Points of improvement:
-- The programm does not check if the files already exist to take proper actions. This cause that a new video with the same name of an old one is not generated 
-- An interfase for selecting the options to use should be added
-- The frames has to be removed at the end of the function
-- The function mlsVideoCreator for creating the video could include the video configuration as on of the paramenter
-- Include a header in the frames that indicate that the video is a resume and also has the dates included
-- Some testing should be done over the programm to check for possible bugs
+- The program does not check if the video files already exist to take proper actions. This causes a new video with the same name as an old one to not be generated.
+- An UI interface for selecting the options to use should be added and an executable file generated.
+- The frames need to be removed at the end of the `mlsVideoCreator function execution.
+- The function `mlsVideoCreator` for creating the video could include the video configuration as one of the parameters.
+- Include a header in the frames that indicates that the video is a resume and also includes the dates for the video.
+- Some testing should be done on the program to check for possible bugs.
 
 
