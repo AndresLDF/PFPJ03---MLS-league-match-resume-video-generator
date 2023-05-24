@@ -1,5 +1,5 @@
 # PFPJ03 - MLS league matches resume video generator
-##Objective
+## Objective
 
 The objective of this project is to generate a video related to a live web page using Selenium and Ffmpeg in Node.js. This is achieved by accomplishing the following sub-objectives:
 1. Use Selenium as a web scraping tool. In this case, we extract information from a soccer league page.
