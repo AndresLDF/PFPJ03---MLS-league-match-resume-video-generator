@@ -11,6 +11,8 @@ The objective of this project is to generate a video related to a live web page 
 This project's objective is not to generate high-quality videos but to explore the potential of Selenium and Ffmpeg for automatic video content generation.
 In a project with the main objective of automatic video generation, I recommend using a TTS API, such as the ones provided by Google, Amazon, or Cooki TTS.
 
+This project, in particular, uses a procedural programming approach. For an object-oriented approach in Node.js, please check other projects like PFPJ04.
+
 ## Structure of the project
 
 This project consists of 5 main files:
@@ -22,19 +24,21 @@ This project consists of 5 main files:
 
 All the other files in the project are modules or configuration files.
 
-## Main functions to use in this project are:
-- **mlsMatchesExtractor**: This functions is in charge of scrapping the MLS web for and specific week. The parameters are:
+## Main functions 
+The main functions that are use in this project are:
+1. **mlsMatchesExtractor**: This functions is in charge of scrapping the MLS web for and specific week. The parameters are:
   - Chrome Capabilities configuration
   - Chrome Options
   - An SQLite Connection (generated with the createConnection fucntion located in utils.js)
   - Date in format yyyy-mm-dd. If not date is specified, the current date is used
--**mlsVideoCreator**:  This functions is in charge of creating a video with the results of all the matches. The parameters are:
+
+2. **mlsVideoCreator**:  This functions is in charge of creating a video with the results of all the matches. The parameters are:
   - Chrome Capabilities configuration
   - Chrome Options
   - An SQLite Connection (generated with the createConnection fucntion located in utils.js)
   - Start date in format yyyy-mm-dd
   - End date in format yyyy-mm-dd
-
+The rest of the functions are support functions for this two main functions. More details can be found on the files
 
 
 
