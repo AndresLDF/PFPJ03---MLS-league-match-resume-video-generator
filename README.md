@@ -7,18 +7,16 @@
    - [Example Video](#Example-Video)
 5. [Points of improvement](#Points-of-improvement)
 
-
 ## Objective
 
-The objective of this project is to generate a video related to a live web page using Selenium and Ffmpeg in Node.js. This is achieved by accomplishing the following sub-objectives:
-1. **Use Selenium as a web scraping tool.** In this case, we extract information from a soccer league page.
+The objective of this project is to o explore the potential of Selenium and FFmpeg in Node.js for automatic video content generation from a live web page. This is achieved by accomplishing the following sub-objectives:
+1. **Use Selenium as a web scraping tool.** In this case, we extract information from the MLS soccer league page.
 2. **Use Selenium to capture screenshots of specific elements.**
 3. **Use Selenium as a web automation tool.** In this example, we automate the creation of sound files on a TTS (Text To Speach) web page.
 4. **Use Selenium to handle shadow-root elements**. In this case the browser's download page and after that manipulate downloaded files using Node.js.
-5. **Use Ffmpeg for video creation.**
+5. **Use FFmpeg for video creation.**
 
-This project's objective is not to generate high-quality videos but to explore the potential of Selenium and Ffmpeg for automatic video content generation.
-In a project with the main objective of automatic video generation, I recommend using a TTS API, such as the ones provided by Google, Amazon, or Cooki TTS.
+This project's objective is not to generate high-quality videos, for this, several changes should be done to the project, between them using a TTS API, such as the ones provided by Google, Amazon, or Cooki TTS.
 
 This project, in particular, uses a **procedural programming approach**. For an object-oriented approach in Node.js, please check other projects like PFPJ04.
 
@@ -72,12 +70,16 @@ Please unmute the video
 
 https://github.com/AndresLDF/PFPJ03---MLS-league-match-resume-video-generator/assets/71279108/0f760527-2370-4ea7-b253-3671ce8ddb93
 
-## Points of improvement:
-- The program does not check if the video files already exist to take proper actions. This causes a new video with the same name as an old one to not be generated.
-- An UI interface for selecting the options to use should be added and an executable file generated.
-- The frames need to be removed at the end of the `mlsVideoCreator function execution.
-- The function `mlsVideoCreator` for creating the video could include the video configuration as one of the parameters.
+**Important Notes:** This project was updated on the 05/25/23 but the web page for the MLS website may have changed the classes names, tags used, or id names (this happens from the first version done in 2021 to the version uploaded in 2023 for my portfolio). If an element is not located it should be properly updated.
+
+
+## Points of Improvement:
+- The program does not check if the video files already exist, which can lead to issues when generating a new video with the same name as an existing one.
+- An UI interface should be added to allow users to select the desired options. Additionally, it would be beneficial to generate an executable file for easier execution.
+- The frames need to be removed at the end of the `mlsVideoCreator` function execution.
+- Consider adding expression markup to the text and providing a proper introduction to the project.
+- The `mlsVideoCreator` function could be enhanced by including the video configuration as one of its parameters.
 - Include a header in the frames that indicates that the video is a resume and also includes the dates for the video.
-- Some testing should be done on the program to check for possible bugs.
+- It is recommended to conduct thorough testing on the program to identify and resolve any potential bugs.
 
 
