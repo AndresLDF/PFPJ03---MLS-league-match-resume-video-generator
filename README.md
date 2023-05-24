@@ -24,21 +24,37 @@ This project consists of 5 main files:
 
 All the other files in the project are modules or configuration files.
 
-## Main functions 
-The main functions that are use in this project are:
-1. **mlsMatchesExtractor**: This functions is in charge of scrapping the MLS web for and specific week. The parameters are:
-  - Chrome Capabilities configuration
-  - Chrome Options
-  - An SQLite Connection (generated with the createConnection fucntion located in utils.js)
-  - Date in format yyyy-mm-dd. If not date is specified, the current date is used
+## Main functions
+The main functions used in this project are:
 
-2. **mlsVideoCreator**:  This functions is in charge of creating a video with the results of all the matches. The parameters are:
-  - Chrome Capabilities configuration
-  - Chrome Options
-  - An SQLite Connection (generated with the createConnection fucntion located in utils.js)
-  - Start date in format yyyy-mm-dd
-  - End date in format yyyy-mm-dd
-The rest of the functions are support functions for this two main functions. More details can be found on the files
+1. **mlsMatchesExtractor**: This function is responsible for scraping the MLS website for a specific week. The parameters are:
+   - Chrome capabilities configuration
+   - Chrome options
+   - An SQLite connection (generated with the `createConnection` function located in `utils.js`)
+   - Date in the format yyyy-mm-dd. If no date is specified, the current date is used.
 
+2. **mlsVideoCreator**: This function is responsible for creating a video with the results of all the matches. The parameters are:
+   - Chrome capabilities configuration
+   - Chrome options
+   - An SQLite connection (generated with the `createConnection` function located in `utils.js`)
+   - Start date in the format yyyy-mm-dd
+   - End date in the format yyyy-mm-dd. If this parameter is not specified, the video will include matches until the last date in the database is reached.
+
+The remaining functions are support functions for these two main functions. More details can be found in the respective files.
+
+## Creating a Video
+The steps to create a video are:
+1. Call the **mlsMatchesExtractor** function for the weeks that contain the matches that you would like to use for the vide
+2. Call **mlsVideoCreator** for the specific dates that you would like to create the video. Specify the name
+3. Check the video at the videos folder
+
+### Example Video
+
+
+### Points of improvement:
+- The programm does not check if the files already exist to take proper actions. This cause that a new video with the same name of an old one is not generated 
+- An interfase for selecting the options to use should be added
+- The frames has to be removed at the end of the function
+- Some testing should be done over the programm to check for possible bugs
 
 
