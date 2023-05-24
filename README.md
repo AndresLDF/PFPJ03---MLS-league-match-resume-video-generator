@@ -3,9 +3,10 @@
 1. [Objective](#objective)
 2. [Structure of the project](#Structure-of-the-project)
 3. [Main functions](#Main-functions)
-4. [Creating a Video](#Creating-a-Video)
+4. [Installation](#Installation)
+5. [Creating a Video](#Creating-a-Video)
    - [Example Video](#Example-Video)
-5. [Points of improvement](#Points-of-improvement)
+6. [Points of improvement](#Points-of-improvement)
 
 ## Objective
 
@@ -49,7 +50,7 @@ The main functions used in this project are:
 
 The remaining functions are support functions for these two main functions. More details can be found in the respective files.
 
-## Install:
+## Installation
 Before downloading the files, please install in your system the follwing:
 - Node.js and NPM
 - Download the ChromeDriver for your Chrome version from here: https://chromedriver.chromium.org/downloads
