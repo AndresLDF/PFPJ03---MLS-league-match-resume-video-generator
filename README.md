@@ -49,8 +49,9 @@ The steps to create a video are:
 3. Check the video at the videos folder
 
 ### Example Video
+
 <video width="640" height="360" controls>
-  <source src="https://raw.githubusercontent.com/username/repository/main/video-url.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/AndresLDF/PFPJ03---MLS-league-match-resume-video-generator/blob/main/videos/Example Video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
