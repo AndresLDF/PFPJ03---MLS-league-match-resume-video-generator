@@ -51,6 +51,16 @@ The main functions used in this project are:
 
 The remaining functions are support functions for these two main functions. More details can be found in the respective files.
 
+## Install:
+Before downloading the files, please install in your system the follwing:
+- Node.js and NPM
+- Download the ChromeDriver for your Chrome version from here: https://chromedriver.chromium.org/downloads
+- include the ChromeDriver location in your PATH environment variable
+- Download FFmpeg from: https://ffmpeg.org/download.html
+- include the FFmpeg location in your PATH environment variable
+
+Afterwards, you can download the contents of this repository and open them with your preferred code editor to make any necessary changes. To execute the main file, open a terminal in the folder that contains the file and use the command node index.js. 
+
 ## Creating a Video
 The steps to create a video are:
 1. Call the **mlsMatchesExtractor** function for the weeks that contain the matches that you would like to use for the vide
